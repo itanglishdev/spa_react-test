@@ -1,4 +1,4 @@
-export const user = {
+const user = {
     name: "Jeff Bezos",
     city: "Albuquerque",
     born: 1964,
@@ -20,3 +20,5 @@ export const user = {
       "Goodreads",
     ],
   };
+
+  export default user

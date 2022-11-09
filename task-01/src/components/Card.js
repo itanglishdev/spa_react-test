@@ -1,15 +1,16 @@
 function Card(props) {
 
-
+    const array = props.companies
+    console.log(array)
     return ( 
     <div>
         <img src={props.img} alt="Jeff Bezos" />
         <h1>{props.name}</h1>
-        <p>place of birth:</p><span>{props.city}</span>
+        <p>Place of birth:</p><span>{props.city}</span>
         <p>Age of birth:</p><span>{props.born}</span> 
         <p>Owns:</p><span>
             {
-            props.companies.map((item,idx) => {
+            array.map((item,idx) => {
                 return <div key={idx}>{item}</div>
             })
             }

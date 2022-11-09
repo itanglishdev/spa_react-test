@@ -33,3 +33,11 @@
   opacity: 0.4;
   margin-bottom: 8px;
 }
+
+img {
+  width: 200px;
+  border-radius: 5px;
+}
+p {
+  color: rgb(124, 136, 136);
+}
