@@ -4,12 +4,15 @@ import {useState} from 'react'
 
 function App() {
 
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
+  const [x, setX] = useState(5);
+  const [y, setY] = useState(5);
 
   function moveHandler() {
-    setX(prev=> prev +10 )
+    setX(prev=> prev + 1 )
+    setY(prev=> prev + 1)
   }
+
+  console.log(x,y)
   return <div className="App">
 
     <h1>Move the Box up!</h1>
