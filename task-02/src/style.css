@@ -4,11 +4,18 @@
 }
 
 .App {
-  text-align: center;
+  /* text-align: center;
   padding-top: 80px;
-  min-height: 100vh;
+  min-height: 100vh; */
   background: lightskyblue;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+
 }
 
 .box {
@@ -28,4 +35,12 @@ button {
   color: white;
   font-size: 36px;
   border-radius: 10px;
+}
+
+.box {
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  /* top: 5px; */
 }
