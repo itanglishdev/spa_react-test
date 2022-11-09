@@ -4,9 +4,12 @@ import data from './data'
 import Card from './components/Card'
 
 function App() {
+
+
+
   return <div className="App">
     
-    <Card/>
+    <Card value={data}/>
   </div>;
 }
 
